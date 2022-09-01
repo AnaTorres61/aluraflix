@@ -1,0 +1,97 @@
+html{
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: #F4F4F4;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #8B0000;
+    height: 100px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: red;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align:center;
+  background-color: black;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-title {
+  color: #8B0000;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 60px;
+  text-shadow: 
+      0 0 10px red,
+      0 0 10px red;
+}
+
+.page-logo {
+  width: 120px;
+    position: absolute;
+    top: 10px;
+    left:10px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+
+#menu{
+  padding-bottom: 90px;
+}
+
+#menu li { display: inline; }
+
+#menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+#menu li a:hover {
+    text-shadow: 
+      0 0 10px red,
+      0 0 10px red,
+      0 0 10px red,
+      0 0 10px red,
+      0 0 10px red;
+}
+
+h2{
+  text-align: left;
+  color: #ffffff;
+  font-size: 25px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+}
+
+body img {
+  margin: 0 10px;
+  padding-bottom: 50px;
+  cursor: pointer;
+}
+
+body img:hover{
+  transform: scale(1.15);
+}
